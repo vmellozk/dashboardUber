@@ -3,13 +3,13 @@
 ### Visão Geral
 Este projeto demonstra a integração do Streamlit com análise de dados, focando nos pickups da Uber em Nova York. Abaixo você encontrará detalhes sobre como o código funciona, requisitos para utilizá-lo e um link para visualizar o projeto implantado.
 
-### Bibliotecas Utilizadas
+### Bibliotecas Utilizadas:
 - `streamlit`: Para construir aplicativos web interativos.
 - `pandas`, `numpy`: Para manipulação e análise de dados.
 
 ### Detalhes do Projeto
 
-#### Explicação do Código
+#### Explicação do Código:
 
 - **Carregamento de Dados**:
    - Os dados são obtidos de um arquivo CSV hospedado na AWS S3.
@@ -24,12 +24,19 @@ Este projeto demonstra a integração do Streamlit com análise de dados, focand
 - **Mapa de Pickups por Hora**:
    - Permite aos usuários selecionar uma hora através de um slider e exibe um mapa dos pickups naquela hora utilizando `st.map`.
 
-#### Prévia de Implantação
+#### Prévia de Implantação:
 
-- **Link de Implantação:** [Link para a Implantação](#)  
-- **Prévia:** [Inserir imagem de prévia aqui]
+- **Link de Implantação:** [https://dashboarduber-ikgysczgfuf88sgred6xto.streamlit.app](https://dashboarduber-ikgysczgfuf88sgred6xto.streamlit.app)
+<p align="center">
+  <a href="https://imgur.com/r0rwcar">
+    <img src="https://i.imgur.com/r0rwcar.png" alt="Prévia do Aplicativo" width="1000"/>
+  </a>
+</p>
 
-### Como Utilizar
+### Propósito:
+Este projeto foi desenvolvido com propósitos educacionais para explorar e demonstrar como as bibliotecas mencionadas podem ser integradas para análise de dados interativa.
+
+### Como Utilizar:
 
 Para executar este código localmente ou em sua própria instância do Streamlit, siga estes passos:
 
@@ -37,12 +44,12 @@ Para executar este código localmente ou em sua própria instância do Streamlit
 
 - **Executar o Aplicativo**: Execute o script que contém o código fornecido. O Streamlit irá hospedar o aplicativo localmente, geralmente em `http://localhost:8501`.
 
-### O que Você Precisa
+### O que preciso?
 
 - **Software**: Python 3.6+ com `pip` para instalação de pacotes.
 - **Fonte de Dados**: Acesso à internet para baixar os dados do URL fornecido da AWS S3.
 
-### O que Fazer
+### Como rodar o aplicativo?
 
 1. **Clonar o Repositório**: Se estiver utilizando controle de versão, clone o repositório que contém os arquivos do projeto.
 
